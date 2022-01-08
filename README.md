@@ -67,8 +67,8 @@ Follow the procedure below
 
 1. Install nodeJs
 2. Clone the repo
-3. cd pratilip
-4. cd src
+3. run command: cd pratilipi
+4. run command: cd src
 5. run command: npm i
 6. run command: node index.js
 7. Voilla!
@@ -83,7 +83,7 @@ Clone the repo
 
 
 
-## Ppostman Collection
+## Postman Collection
 
 Link : https://www.getpostman.com/collections/08df2b5ef6e90915c3e7
 
@@ -91,6 +91,20 @@ Link : https://www.getpostman.com/collections/08df2b5ef6e90915c3e7
 Please visit : 
 https://dbdiagram.io/d/61d94dabf8370f0a2ee5a5eb
 
+
+## Meta Info
+* Currently the apps supports simple interaction of user with books
+* Later every time when a user opens a book we can update entry in user_book_interaction
+* So from user_book_interaction table, we will be able to fetch:
+
+
+
+<ol>
+    <li>All the books read by the reader</li>
+    <li>All the books liked by the reader</li>
+    <li>All the readers that read the particular book</li>
+    <li>All the readers that liked a particular book</li>
+</ol>
 
 <!-- CONTACT -->
 ## Contact
