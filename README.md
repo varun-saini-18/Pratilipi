@@ -8,7 +8,7 @@
     <img src="https://www.mpug.com/wp-content/uploads/2020/03/new-project-logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Magical Loan Provider</h3>
+  <h3 align="center">Pratilipi</h3>
 
   
   </p>
@@ -40,38 +40,15 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-The program will take 4 args from the command line:
-<ul>
-        <li>Arg1: Input File Location</li>
-        <li>Arg2: Output File Location</li>
-        <li>Arg1: Arg3: Initial inhand amount with bank</li>
-        <li>Arg2: Arg4: Max concurrent loans that can be preprocessed.</li>
-</ul>
-
-### Demo
-
-If arguments are appropriate
-
-<img width="667" alt="Screenshot 2021-12-25 at 12 11 17 AM" src="https://user-images.githubusercontent.com/54900875/147369125-f4d763c4-a45f-40d2-952a-f444f1b8c775.png">
-
-If input file location is incorrect
-
-
-<img width="703" alt="Screenshot 2021-12-25 at 12 14 18 AM" src="https://user-images.githubusercontent.com/54900875/147369190-2a3f6dee-5f75-4ef5-9f9c-6e4fc084092c.png">
-
-
-If number of arguments provided are less than required
-
-
-<img width="662" alt="Screenshot 2021-12-25 at 12 15 29 AM" src="https://user-images.githubusercontent.com/54900875/147369220-e0c266dd-cbe8-4e2e-89eb-29664ccb2eab.png">
-
+* Project aims at user interaction with books.
+* User can add, read or delete a story
 
 
 
 Functionalities:
-* Program will throw appropriate error if there is any
-* Otherwise will give a list of applications that need to be sanctioned for loans
+* User needs to authorize first.
+* After authorization user can add, read or delete the story
+* If user is not authorised or parameters passed are not appropriate then error will shown
 
 ### Built With
  [NodeJs]    
@@ -89,8 +66,13 @@ Follow the procedure below
 ### Prerequisites
 
 1. Install nodeJs
-2. Cd to Pratilipi directory and then to src directory
-3. Run command nodemon
+2. Clone the repo
+3. cd pratilip
+4. cd src
+5. run command: npm i
+6. run command: node index.js
+7. Voilla!
+
 
 ### Installation
 
@@ -101,6 +83,13 @@ Clone the repo
 
 
 
+## Ppostman Collection
+
+Link : https://www.getpostman.com/collections/08df2b5ef6e90915c3e7
+
+## Schema
+Please visit : 
+https://dbdiagram.io/d/61d94dabf8370f0a2ee5a5eb
 
 
 <!-- CONTACT -->
@@ -110,4 +99,6 @@ Varun Saini - [Linked in](https://www.linkedin.com/in/varun-sainii/)
 
 
 
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/varun-sainii
