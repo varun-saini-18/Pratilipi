@@ -105,6 +105,7 @@ https://dbdiagram.io/d/61d94dabf8370f0a2ee5a5eb
 </ol>
 
 * Instead of storing plain password in database, we can store encrypted password using bcryptjs library of JS. While authenticating the user we can simple match the hashed password with the password stored in DB.
+* We can also add a default page for requests that does not map for any url.
 
 <!-- CONTACT -->
 ## Contact
