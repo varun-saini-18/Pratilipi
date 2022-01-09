@@ -97,14 +97,14 @@ https://dbdiagram.io/d/61d94dabf8370f0a2ee5a5eb
 * Later every time when a user opens a book we can update entry in user_book_interaction
 * So from user_book_interaction table, we will be able to fetch:
 
-
-
 <ol>
     <li>All the books read by the reader</li>
     <li>All the books liked by the reader</li>
     <li>All the readers that read the particular book</li>
     <li>All the readers that liked a particular book</li>
 </ol>
+
+* Instead of storing plain password in database, we can store encrypted password using bcryptjs library of JS. While authenticating the user we can simple match the hashed password with the password stored in DB.
 
 <!-- CONTACT -->
 ## Contact
